@@ -1,0 +1,128 @@
+.selectMenu{
+    display: flex;
+}
+
+#select{
+    background-color: #0077b6;
+    font-size: medium;
+}
+
+#searchProduct{
+    background-color: #caf0f8;
+
+}
+
+.searchTable{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space;
+}
+
+.searchButton{
+    background-color: #0077b6;
+}
+
+.backButton{
+    display: flex;
+    justify-content: end;
+}
+
+#backButtonTable{
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #0077b6;
+    border-radius: 5px;
+    background-color: #0077b6;
+}
+
+.editButton{
+    text-decoration: none;
+    color: black;
+}
+
+.card-body > h5{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#productDescription{
+    font-weight: bold;
+}
+
+.price{
+    display: inline-block;
+
+}
+
+.allCards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: flex-start;
+}
+
+.card{
+    margin: 20px;
+}
+
+.table{
+    text-align: center;
+	justify-content: center;
+	align-content: flex-end;
+}
+
+.editTitle > h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.editTemplate{
+    background-color: #0096c7;
+}
+.container{
+    display: block;
+    width: fit-content;
+    position: relative;
+}
+
+input,
+textarea{
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #caf0f8;
+}
+
+p{
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+
+.editBtn{
+    margin-top: 10px;
+    background-color: #0077b6;
+    border-radius: 5px;
+    width: 100px;
+    position: absolute;
+}
+
+.deletButton{
+    margin-top: 10px;
+    background-color: #0077b6;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.delete{
+    width: 73%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+
+
